@@ -21,27 +21,54 @@
         </section>
     </template>
 
-    <nav id="navbar" style="height: 15vh">
-        <div class="col-1">logo here</div>
-        <div class="col-9">Craft Store</div>
-        <div class="col-2">
+    <nav id="navbar" class="navbar sticky-top bg-primary-subtle" style="height: 10vh">
+        <div class="col-1 h-100 text-center"><img src="https://via.placeholder.com/49x49" class="img-fluid" alt="logo"></div>
+        <div class="col-9 h-100">Craft Store</div>
+        <div class="col-2 h-100">
             <span><a href="cart.html">My Cart</a></span>
         </div>
     </nav>
     <div class="container-fluid">
-        <section class="row">
-            <article id="sidebar" class="col-2">
-                <p><a href="#">Home</a></p>
-                <p><a href="#">Yarn</a></p>
-                <p><a href=#>Fabric</a></p>
-                <p><a href="#">Supplies</a></p>
-            </article>
-            <article id="cards" class="col-10">
+        <section class="row p-2">
+            <ul class="nav flex-column col-2">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <hr>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Yarn</a>
+                </li>
+                <hr>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Fabric</a>
+                </li>
+                <hr>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Supplies</a>
+                </li>
+              </ul>
+            <article id="cards" class="col-10 p-2">
                 <div class="row" style="height: 80vh">
-                    <div class="card col-4">this is a card</div>
+                    <div class="card col-4 p-1">
+                        <img src="https://via.placeholder.com/640x360" class="card-img-top" alt="placeholder image">
+                        <div class="card-body p-2" style="min-height: 12rem">
+                            <h5 class="card-title">Card title</h5>
+                            <h6>$Price</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Order</a>
+                        </div>
+                    </div>
                     <div class="card col-4">this is another card</div>
                     <div class="card col-4">third card</div>
-                    <div class="card col-4">next row</div>
+                    <div class="card col-4 p-1">
+                        <img src="https://via.placeholder.com/640x360" class="card-img-top" alt="placeholder image">
+                        <div class="card-body p-2" style="min-height: 12rem">
+                            <h5 class="card-title">Card title</h5>
+                            <h6>$Price</h6>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <a href="#" class="btn btn-primary">Order</a>
+                        </div>
+                    </div>
                     <div class="card col-4">this is another card</div>
                     <div class="card col-4">this is another card</div>
                     <div class="card col-4">this is another card</div>
