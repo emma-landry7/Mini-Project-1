@@ -1,0 +1,12 @@
+#navbar {
+    border: 2px solid black;
+    display: flex;
+}
+
+/* article {
+    border: 1px solid blue;
+} */
+
+div {
+    border: 1px dotted green;
+}
